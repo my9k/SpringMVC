@@ -101,6 +101,7 @@
                 </executions>
             </plugin>
 		</plugins>
+		<finalName>my-app</finalName>
 	</build>
 
 </project>
