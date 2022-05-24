@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 9002
-ADD target/Spring-MVC-Docker.jar Spring-MVC-Docker.jar 
-ENTRYPOINT ["java", "-jar","/Spring-MVC-Docker.jar "]
+ADD target/my-app.jar my-app.jar 
+ENTRYPOINT ["java", "-jar","/my-app.jar "]
